@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly Test 2</title>
     <style>
+        .scrollable-bar {
+            /* display: flex; */
+            overflow-x: auto;
+            white-space: nowrap;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .scrollable-bar img {
+            /* width: 160px; */
+            /* Adjust the size as needed */
+            height: auto;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
         body {
             display: flex;
         }
@@ -34,7 +51,7 @@
 </head>
 
 <body>
-    <div class="sidebar">
+    <div class="sidebar scrollable-bar">
         <h4>Project 1 - Resume</h4>
         <hr>
         <a href="resume.html" target="contentFrame">
@@ -45,21 +62,21 @@
         <h4>Project 2 - Photo Cat App</h4>
         <hr>
         <a href="cat.html" target="contentFrame">
-            <img src="cathtmlImg.png" alt="Project 2">
+            <img src="cathtmlImg.png" alt=" Project 2">
         </a>
         <hr>
 
         <h4>Project 3 - Form</h4>
         <hr>
         <a href="personalDetail.html" target="contentFrame">
-            <img src="personalhtmlImg.png" height="200px" alt="Project 1">
+            <img src="personalhtmlImg.png" alt="Project 1">
         </a>
         <hr>
 
         <h4>Project 4 - Tribute Page</h4>
         <hr>
         <a href="TributePage.html" target="contentFrame">
-            <img src="viratHtmlIng.png" alt="Project 2">
+            <img src="viratHtmlIng.png" alt=" Project 2">
         </a>
         <hr>
     </div>
